@@ -20,12 +20,21 @@ namespace API.Controllers
             _mediator = mediator;
         }
        
+        /// <summary>
+        /// لیست مشتریان را برمیگرداند
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<List<CustomerModel>> Get()
         {
             return await _mediator.Send(new GetAllCustomerQuery());
         }
 
+        /// <summary>
+        /// ایجاد یک مشتری جدید
+        /// </summary>
+        /// <param name="command">اطلاعات مشتری جدید</param>
+        /// <returns></returns>
         [HttpPost]
         [Route("CreateCustomer")]
         public async Task<ActionResult<CustomerModel>> CreateCustomer([FromBody] CreateCustomerCommand command)
@@ -34,7 +43,11 @@ namespace API.Controllers
             return Ok(result);
         }
 
-
+        /// <summary>
+        /// ویرایش یک مشتری
+        /// </summary>
+        /// <param name="command">اطلاعات ویرایش شده مشتری</param>
+        /// <returns></returns>
         [HttpPut]
         [Route("EditCustomer")]
         public async Task<ActionResult> EditCustomer( [FromBody] EditCustomerCommand command)
@@ -52,6 +65,11 @@ namespace API.Controllers
             }
         }
 
+        /// <summary>
+        /// حذف یک مشتری
+        /// </summary>
+        /// <param name="id">شناسه مشتری</param>
+        /// <returns></returns>
         [HttpDelete]
         [Route("DeleteCustomer")]
         public async Task<ActionResult> DeleteCustomer(int id)

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Core\\Core.csproj": {}
+    "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Core\\Core.csproj": {}
   },
   "projects": {
-    "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Core\\Core.csproj": {
+    "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Core\\Core.csproj",
+        "projectUniqueName": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
-        "outputPath": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Core\\obj\\",
+        "projectPath": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\atefi\\.nuget\\packages\\",
+        "outputPath": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\atefi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "QLfLPe+qdxp1Z/S+/Es/3fN+9Q6HGDC8gHJmYxQrOJ9JS/SjjO6hoJ1ARZc3fCJfF5dTQWk52aAjupbmKxJ6Cw==",
+  "dgSpecHash": "BntkvaHq0q6rwPYBgbDfg+gIIk+MF3kM8qJhWRkikMtfZYSpXgyUzQ/Fj2Wut1kTOrLOZbazyfzFRcUTiywH+w==",
   "success": true,
-  "projectFilePath": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Application\\Application.csproj",
+  "projectFilePath": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\saeid\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
-    "C:\\Users\\saeid\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
-    "C:\\Users\\saeid\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
-    "C:\\Users\\saeid\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
-    "C:\\Users\\saeid\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\saeid\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\atefi\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\atefi\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\atefi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\atefi\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\atefi\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\atefi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

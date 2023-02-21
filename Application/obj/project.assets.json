@@ -5,10 +5,14 @@
       "FluentValidation/11.2.1": {
         "type": "package",
         "compile": {
-          "lib/net5.0/FluentValidation.dll": {}
+          "lib/net5.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0/FluentValidation.dll": {}
+          "lib/net5.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FluentValidation.AspNetCore/11.2.2": {
@@ -18,10 +22,14 @@
           "FluentValidation.DependencyInjectionExtensions": "11.2.1"
         },
         "compile": {
-          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -34,10 +42,14 @@
           "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
         },
         "compile": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MediatR/11.1.0": {
@@ -46,28 +58,40 @@
           "MediatR.Contracts": "1.0.1"
         },
         "compile": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MediatR.Contracts/1.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Core/1.0.0": {
@@ -197,23 +221,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\saeid\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\atefi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Application\\Application.csproj",
+      "projectUniqueName": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
-      "outputPath": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Application\\obj\\",
+      "projectPath": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\atefi\\.nuget\\packages\\",
+      "outputPath": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\atefi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -227,8 +247,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Core\\Core.csproj": {
-              "projectPath": "F:\\project\\Example\\pr3\\Atefi.Saeid.CRUDTEST\\Core\\Core.csproj"
+            "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Core\\Core.csproj": {
+              "projectPath": "F:\\project\\Example\\pr8\\Atefi-Crud-Test2\\Core\\Core.csproj"
             }
           }
         }
@@ -258,7 +278,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -267,7 +288,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
